@@ -1,0 +1,23 @@
+import React, { Component } from 'react';
+import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
+
+class UserList extends Component{
+   render(){
+      return(
+          <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+          </ul>
+      );
+   }
+}
+
+function mapStatesToProps() {
+       return{
+         users:state.users
+       }
+}
+
+export default UserList;
