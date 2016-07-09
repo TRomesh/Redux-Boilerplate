@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-template",
+  "name": "react-redux-example",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,19 @@
     "babel-plugin-react-transform": "^2.0.2",
     "babel-preset-stage-0": "^6.5.0",
     "react-transform-hmr": "^1.0.4"
-  }
+  },
+  "description": "An Example for React and Redux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TRomesh/Redux-Boilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "Redux"
+  ],
+  "author": "Tharaka Romesh",
+  "bugs": {
+    "url": "https://github.com/TRomesh/Redux-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/TRomesh/Redux-Boilerplate#readme"
 }
